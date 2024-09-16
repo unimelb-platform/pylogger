@@ -21,7 +21,7 @@ PyLogger is a robust, feature-rich logging utility for Python applications. It p
 To install PyLogger directly from GitHub, run:
 
 ```bash
-pip install git+https://github.com/unimelb-platform/pylogger.git
+pip install git+https://github.com/unimelb-platform/pylogger.git@v0.1
 ```
 
 ### Using Poetry
@@ -29,7 +29,7 @@ pip install git+https://github.com/unimelb-platform/pylogger.git
 To add PyLogger to your project using Poetry, run:
 
 ```bash
-poetry add git+https://github.com/unimelb-platform/pylogger.git
+poetry add git+https://github.com/unimelb-platform/pylogger.git@v0.1
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ poetry add git+https://github.com/unimelb-platform/pylogger.git
 ### Basic Usage
 
 ```python
-from pylogger.logger import PyLogger
+from pylogger.pylogger import PyLogger
 
 # Initialize the logger
 logger = PyLogger("app.log")
